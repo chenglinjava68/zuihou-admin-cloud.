@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: @project.artifactId@
+
+logging:
+  file:
+    path: @logging.file.path@
+    name: ${logging.file.path}/${spring.application.name}/root.log
+
